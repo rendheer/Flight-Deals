@@ -8,7 +8,7 @@ class FlightData:
         self.departure_airport_code = "LON"
         self.departure_city = "London"
         self.tequila_flight_price_search_endpoint = "https://tequila-api.kiwi.com/v2/search"
-        self.api_key = "0D1Lf-IqQODTum1UkVju44YRtnUbpXr_"
+        self.api_key = ""
 
         self.headers = {
             "apikey": self.api_key
