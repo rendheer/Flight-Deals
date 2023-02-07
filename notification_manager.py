@@ -4,12 +4,12 @@ import smtplib
 class NotificationManager:
     #This class is responsible for sending notifications with the deal flight details.
     def __init__(self):
-        self.TWILIO_SID = "AC4d455acba5fd6e26b56b7869e25b13a8"
-        self.TWILIO_AUTH_TOKEN = "4b3ab636d02afebff43f01e7b47ff2a7"
+        self.TWILIO_SID = ""
+        self.TWILIO_AUTH_TOKEN = ""
         self.VIRTUAL_TWILIO_NUMBER = "+18456979245"
         self.VERIFIED_NUMBER = "+14088768780"
         self.MY_EMAIL = "rendheer_joshy@yahoo.com"
-        self.MY_PASSWORD = "toxjwadamcckymbh"
+        self.MY_PASSWORD = ""
 
     def send_notification(self, msg_body):
         client = Client(self.TWILIO_SID, self.TWILIO_AUTH_TOKEN)
